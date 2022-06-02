@@ -111,10 +111,10 @@ main {
     height: 100vh;
 
     .headerBanner {
-      padding: 4rem 0;
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 2rem 0;
       .headerLeft {
         height: 100%;
         display: flex;
@@ -2999,6 +2999,9 @@ main.storePage {
 }
 
 @media (min-width: 1400px) {
+  main .header .headerBanner {
+    padding: 4rem 0;
+  }
   .softwareUpdates {
     .singleCard {
       width: 370px;
@@ -3033,9 +3036,8 @@ main.storePage {
 }
 // Responsive
 @media (max-width: 991px) {
-  // HomePage
   main .header .headerBanner {
-    margin: 6rem 0;
+    margin: 15rem 0;
   }
   main .header {
     height: 100vh;
