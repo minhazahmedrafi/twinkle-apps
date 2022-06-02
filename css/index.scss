@@ -2569,7 +2569,6 @@ main.storePage {
               font-weight: 700;
               font-size: 20px;
               color: $textColor;
-              margin: 0;
               span {
                 background: -webkit-linear-gradient(
                   0.32deg,
@@ -3329,6 +3328,9 @@ main.storePage {
   }
   main.storePage .storePricing .overlays {
     display: none;
+  }
+  main.storePage .header .headerBanner .headerLeft .review .left p {
+    margin: 0;
   }
 }
 // Meddia *420*

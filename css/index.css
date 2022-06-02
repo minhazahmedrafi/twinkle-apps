@@ -3055,7 +3055,6 @@ main.storePage .header .headerBanner .headerLeft .review .left p {
   font-weight: 700;
   font-size: 20px;
   color: #171438;
-  margin: 0;
 }
 
 main.storePage .header .headerBanner .headerLeft .review .left p span {
@@ -3873,6 +3872,9 @@ p {
   }
   main.storePage .storePricing .overlays {
     display: none;
+  }
+  main.storePage .header .headerBanner .headerLeft .review .left p {
+    margin: 0;
   }
 }
 
