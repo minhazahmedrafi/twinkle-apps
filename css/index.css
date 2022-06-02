@@ -3590,7 +3590,7 @@ main.storePage footer .copyright {
 
 @media (max-width: 991px) {
   main .header .headerBanner {
-    margin: 15rem 0;
+    margin: 6rem 0;
   }
   main .header {
     height: 100vh;
