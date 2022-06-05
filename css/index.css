@@ -129,7 +129,7 @@ main .header .headerBanner {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2rem 0;
+  height: 90%;
 }
 
 main .header .headerBanner .headerLeft {
@@ -183,6 +183,7 @@ main .header .headerBanner .headerLeft .allPluginsBtn:hover {
 
 main .popularPlugins {
   background: rgba(0, 124, 245, 0.1);
+  padding-bottom: 120px;
 }
 
 main .popularPlugins .popularTop {
@@ -197,6 +198,7 @@ main .popularPlugins .popularTop {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 2rem;
 }
 
 main .popularPlugins .popularTop .pLeft h2 {
@@ -215,7 +217,7 @@ main .popularPlugins .popularTop .pRight a {
 }
 
 main .popularPlugins .pluginsCard .singlePlugCard .card {
-  padding: 15px;
+  padding: 20px;
   border: none;
   border-radius: 10px;
   -webkit-transition: all 0.2s ease;
@@ -230,7 +232,7 @@ main .popularPlugins .pluginsCard .singlePlugCard .card .card-body {
   padding: 4px;
 }
 
-main .popularPlugins .pluginsCard .singlePlugCard .card .card-body span {
+main .popularPlugins .pluginsCard .singlePlugCard .card .card-body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -242,7 +244,7 @@ main .popularPlugins .pluginsCard .singlePlugCard .card .card-body span {
           justify-content: flex-start;
 }
 
-main .popularPlugins .pluginsCard .singlePlugCard .card .card-body span p {
+main .popularPlugins .pluginsCard .singlePlugCard .card .card-body p span {
   margin: 0;
   margin-left: 5px;
   font-style: normal;
@@ -265,7 +267,6 @@ main .popularPlugins .pluginsCard .singlePlugCard .card .card-body .card-text {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 28px;
   color: rgba(23, 20, 56, 0.6);
   margin-top: 10px;
 }
@@ -311,6 +312,10 @@ main .popularPlugins .pluginsCard .singlePlugCard .card:hover {
           box-shadow: 0px 20px 40px 5px rgba(0, 0, 0, 0.15);
 }
 
+main .offer {
+  padding-bottom: 60px;
+}
+
 main .offer .offerHeader {
   text-align: center;
 }
@@ -341,8 +346,8 @@ main .offer .offersCard .middleCard {
 main .offer .offersCard .singleOffer {
   text-align: center;
   border-radius: 20px;
-  padding: 1.5rem;
-  min-height: 320px;
+  padding: 30px 50px;
+  min-height: 300px;
 }
 
 main .offer .offersCard .singleOffer .offerImg {
@@ -385,7 +390,7 @@ main .offer .offersCard .bestBrands {
 }
 
 main .offer .offersCard .bestBrands .bbHead {
-  margin-bottom: 2rem;
+  margin-bottom: 3em;
 }
 
 main .offer .offersCard .bestBrands .bbHead h2 {
@@ -463,8 +468,8 @@ main .clientSays .twinkleApps .mainTwinkleApp {
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
-  padding: 0rem 5rem;
-  padding-bottom: 4rem;
+  padding: 3rem 5rem;
+  padding-bottom: 5rem;
 }
 
 main .clientSays .twinkleApps .twinkleAppsHead h2 {
@@ -536,7 +541,7 @@ main .clientSays .clientSaysHead h2 {
 main .clientSays .singleClient {
   background: #fff;
   border-radius: 10px;
-  padding: 24px;
+  padding: 30px;
   text-align: center;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -626,6 +631,7 @@ main .blog .blogHead {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-bottom: 1rem;
 }
 
 main .blog .blogHead h2 {
@@ -667,7 +673,6 @@ main .blog .singleBlog .card .card-title {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 34px;
   color: rgba(23, 20, 56, 0.8);
   margin-top: 1rem;
 }
@@ -676,7 +681,6 @@ main .blog .singleBlog .card .card-text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
   color: rgba(23, 20, 56, 0.4);
   margin-top: 3rem;
 }
@@ -852,7 +856,7 @@ main.pluginPage .header {
 }
 
 main.pluginPage .pluginBanner {
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
   position: relative;
   z-index: 9;
 }
@@ -867,7 +871,7 @@ main.pluginPage .pluginBanner .overlayStyle {
 main.pluginPage .pluginBanner .bannerContent .bannerTitle {
   margin-bottom: 4rem;
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 6rem;
 }
 
 main.pluginPage .pluginBanner .bannerContent .bannerTitle h1 {
@@ -999,11 +1003,17 @@ main.pluginPage .pluginBanner .submitQuery p a {
 }
 
 main.pluginPage .offersMade {
+  padding-bottom: 120px;
   background: #e3eefe;
+}
+
+main.pluginPage .offersMade .offersCard .singleOffer {
+  min-height: 320px;
 }
 
 main.pluginPage .offersMade .offersCard .singleOffer h4 {
   margin-top: 0px;
+  margin-bottom: 1rem;
 }
 
 main.pluginPage .offersMade .offer01 {
@@ -1104,6 +1114,10 @@ main.pluginPage .pluginsBrands {
   padding-top: 0;
 }
 
+main.pluginPage .pluginsBrands .pluginsBrandsHead {
+  margin-bottom: 40px;
+}
+
 main.pluginPage .pluginsBrands .pluginsBrandsHead h2 {
   font-weight: 700;
   font-size: 36px;
@@ -1138,6 +1152,7 @@ main.pluginPage .pluginsBrands .singleBrandLogo:hover {
 
 main.pluginPage.pluginPage footer {
   margin-top: 0rem;
+  padding-top: 8rem;
 }
 
 .screenshots {
@@ -1174,6 +1189,11 @@ main.pluginPage.pluginPage footer {
 
 .pricingTable {
   padding-top: 0px;
+  padding-bottom: 60px;
+}
+
+.pricingTable .pricingTableHead {
+  margin-bottom: 1rem;
 }
 
 .pricingTable .pricingTableHead h2 {
@@ -1342,7 +1362,7 @@ main.pluginPage.pluginPage footer {
 
 .pluginsFAQ .pluginsFAQhead {
   text-align: center;
-  margin-bottom: 2.5rem;
+  margin-bottom: 60px;
 }
 
 .pluginsFAQ .pluginsFAQhead h2 {
@@ -1385,6 +1405,10 @@ main.pluginPage.pluginPage footer {
 .pluginsFAQ .mainFAQ .accordion-item .accordion-body {
   font-size: 18px;
   padding: 2rem 2rem;
+}
+
+.pluginPageClient {
+  padding-bottom: 120px;
 }
 
 .pluginPageClient .mainTwinkleApp {
@@ -1441,7 +1465,7 @@ main.blogPage .blog-01 .mainBlogArea .blogBanner img {
 
 main.blogPage .blog-01 .mainBlogArea .blogContent .topContent h1 {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 46px;
   text-align: center;
   color: #171438;
 }
@@ -1457,7 +1481,7 @@ main.blogPage .blog-01 .mainBlogArea .blogContent .topContent .userDetails {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 0 2rem;
+  padding: 0 5rem;
 }
 
 main.blogPage .blog-01 .mainBlogArea .blogContent .topContent .userDetails .userName {
@@ -1514,7 +1538,7 @@ main.blogPage .blog-01 .mainBlogArea .blogContent .bottomContent .para-01 .paraI
 }
 
 main.blogPage .blog-01 .mainBlogArea .blogContent .bottomContent .writerDetails {
-  background-color: #007cf5;
+  background-color: #003cff;
   background-image: url("../images/blogPage/writerBG.png");
   background-size: cover;
   border-radius: 20px;
@@ -1573,7 +1597,7 @@ main.blogPage .blog-01 .mainBlogArea .blogContent .bottomContent .relatedPost .r
 }
 
 main.blogPage .blog-01 .mainBlogArea .blogContent .bottomContent .relatedPost .singlePost .card {
-  padding: 0.8rem;
+  padding: 12px;
   -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
@@ -1680,7 +1704,7 @@ main.aboutPage .header .aboutHeaderBanner {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #007cf5;
+  background-color: #003cff;
   background-image: url("../images/blogPage/writerBG.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -1705,7 +1729,7 @@ main.aboutPage .header .aboutHeaderBanner .bannerContent h1 {
 }
 
 main.aboutPage .aboutAppsTeam {
-  padding-top: 2rem;
+  padding-top: 0rem;
 }
 
 main.aboutPage .aboutAppsTeam .aboutAppTeamMain .nav {
@@ -1945,10 +1969,6 @@ main.aboutPage .softwareUpdates .singleCard p {
   color: #171438;
 }
 
-main.aboutPage .ourOffice {
-  margin-top: 5rem;
-}
-
 main.aboutPage .ourOffice .leftContent .leftHead h2 {
   font-weight: 700;
   font-size: 40px;
@@ -2023,6 +2043,10 @@ main.aboutPage .ourOffice .rightContent .overlayContent {
   z-index: -999;
 }
 
+main.aboutPage .subscribe {
+  padding-bottom: 0;
+}
+
 main.aboutPage .subscribe .subscribeField {
   height: 312px;
   background: #ffffff;
@@ -2067,7 +2091,7 @@ main.aboutPage .subscribe .subscribeField .input-group .form-control {
 
 main.aboutPage .subscribe .subscribeField .input-group .btn-outline-secondary {
   background-color: #007cf5;
-  padding: 0.8rem 4rem;
+  padding: 0.8rem 3rem;
   border-color: #007cf5;
   border-radius: 0px 8px 8px 0px;
   color: #fff;
@@ -2457,6 +2481,7 @@ main.brandPage .logosDownload .brandColors .singleColor .card .card-body .hexCod
 
 main.brandPage .usingLogo {
   position: relative;
+  padding-top: 0;
 }
 
 main.brandPage .usingLogo .overlayStyles .style01 {
@@ -2575,6 +2600,7 @@ main.brandPage .usingLogo .usingLogoRight2 .logo .img {
 
 main.brandPage footer {
   margin-top: 0;
+  padding-top: 8rem;
 }
 
 main.bundlesPage .header {
@@ -2584,7 +2610,7 @@ main.bundlesPage .header {
 main.bundlesPage .header .bundlesHeaderBanner {
   height: 100%;
   width: 100%;
-  background: linear-gradient(251.28deg, #6a14d9 0%, #3125d2 50% 130.61%);
+  background: linear-gradient(251.28deg, #6a14d9 0%, #0007c9 50% 130.61%);
 }
 
 main.bundlesPage .header .bundlesHeaderBg {
@@ -2937,6 +2963,7 @@ main.bundlesPage .bundlesGuranteeCard .singleClient .reviewText {
 
 main.bundlesPage footer {
   margin-top: 0;
+  padding-top: 8rem;
 }
 
 .bundlePageFaq {
@@ -3556,9 +3583,6 @@ main.storePage footer .copyright {
 }
 
 @media (min-width: 1400px) {
-  main .header .headerBanner {
-    padding: 4rem 0;
-  }
   .softwareUpdates .singleCard {
     width: 370px;
   }
@@ -3583,15 +3607,23 @@ main.storePage footer .copyright {
   main.storePage .header .headerBanner .headerLeft .review .right {
     margin-left: 3rem;
   }
-  .pricingTable .pricingTableTabs .nav {
+  main.storePage .pricingTable .pricingTableTabs .nav {
     width: 31% !important;
+  }
+  main.aboutPage
+.aboutAppsTeam
+.aboutAppTeamMain
+.tab-content
+.aboutTwinkleApps
+.right {
+    width: 80%;
+  }
+  main .offer .offersCard .bestBrands .singleBrandLogo {
+    width: 250px;
   }
 }
 
 @media (max-width: 991px) {
-  main .header .headerBanner {
-    margin: 4rem 0;
-  }
   main .header {
     height: 100vh;
   }
@@ -3707,7 +3739,7 @@ main.storePage footer .copyright {
   main.storePage .header .headerBanner {
     margin: 0;
   }
-  .pricingTable .pricingTableTabs .nav .nav-item .lifetime {
+  main.storePage .pricingTable .pricingTableTabs .nav .nav-item .lifetime {
     margin-left: 0;
   }
 }
@@ -3797,6 +3829,9 @@ p {
 .bottomContent
 .writerDetails {
     padding: 2rem 2rem;
+  }
+  main.blogPage .blog-01 .mainBlogArea .blogContent .topContent .userDetails {
+    padding: 0;
   }
   main.aboutPage .header .aboutHeaderBanner .bannerContent h1 {
     font-size: 36px;
@@ -3922,7 +3957,7 @@ p {
   main .pluginsFAQ .pluginsFAQhead h2 {
     font-size: 26px;
   }
-  .pricingTable .pricingTableTabs .nav .nav-item .nav-link {
+  main.storePage .pricingTable .pricingTableTabs .nav .nav-item .nav-link {
     margin-left: 0;
     margin-top: -0.4rem;
   }
